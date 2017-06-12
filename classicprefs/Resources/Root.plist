@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Classic</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Cell Options</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>key</key>
+			<string>whiteBlur</string>
+			<key>label</key>
+			<string>White Blur (iOS 10/9 Style)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Off = Transparent</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>key</key>
+			<string>topBar</string>
+			<key>label</key>
+			<string>Cell Header</string>
+		</dict>
+		<dict>
+    		<key>cell</key>
+    		<string>PSEditTextCell</string>
+    		<key>placeholder</key>
+   		 	<string>4</string>
+   		 	<key>bestGuess</key>
+   		 	<string>4</string>
+   		 	<key>defaults</key>
+   		 	<string>com.nathanaccidentally.classicpreffs</string>
+   			<key>isNumeric</key>
+   		 	<true/>
+   		 	<key>key</key>
+   		 	<string>lineAmount</string>
+   		 	<key>label</key>
+    		<string>Cell Line Amount</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openDonate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate 🔥</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openTwitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter @clichewow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Version</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nathanaccidentally.classicpreffs</string>
+			<key>key</key>
+			<string>isTenOne</string>
+			<key>label</key>
+			<string>10.1.1</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Why?: iOS 10.1.1 and 10.2 behave differently in regards to notifications. This makes sure either uses the right code.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Version 1.1. Built with ❤️ by nathanaccidentally.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Classic</string>
+</dict>
+</plist>
