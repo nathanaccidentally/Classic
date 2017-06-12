@@ -68,7 +68,7 @@ static NSInteger lineAmount = 4; // This is the default.
 	} else if (isTenOne == NO) { // I haven't forgotten about 10.2 users.
 		frame = CGRectMake(-8, 0, UIScreen.mainScreen.bounds.size.width, frame.size.height);
 		%orig(frame);
-	} else if (isTenOne) { // This is for banners on 10.1.1.
+	} else if (isTenOne && ![[self.superview isMemberOfClass:objc_getClass("UIScrollView")]]) { // This is for banners on 10.1.1.
 		frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, frame.size.height);
 		%orig(frame);
 	}
@@ -90,7 +90,7 @@ static NSInteger lineAmount = 4; // This is the default.
 	NSLog(@"Classic: Prefs should be loaded.");
 
 	if (prefs) {
-		if ([prefs objectForKey:@"isEnabled"]) {
+		if ([[prefs objectForKey:@"isEnabled"] boolValue]) {
 			%init(classic); // Starts the tweak.
 		}
 
