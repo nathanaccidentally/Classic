@@ -19,7 +19,7 @@
 }
 
 -(void)openTwitter {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/clichewow"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/nathangoodwinn"]];
 }
 
 @end

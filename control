@@ -1,7 +1,7 @@
 Package: com.nathanaccidentally.classic
 Name: Classic
 Depends: mobilesubstrate, firmware (>= 10.0)
-Version: 1.1
+Version: 1.1-1
 Architecture: iphoneos-arm
 Description: Back to the classics.
 Maintainer: nathanaccidentally
